@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+    .container{
+        display:flex;
+        flex-direction: rows;
+        background-color: darkorange;
+        color: black;
+        justify-content: space-evenly;
+        flex-wrap:wrap ;
+        
+    }
+}
+.item{
+    background-color: dimgray;
+    padding:5%;
+    margin: 2%;
+}

@@ -1,0 +1,31 @@
+.grid-container{
+    display:grid;
+    background-color:beige;
+    grid-template-columns: repeat(3,1fr) ;
+    
+}
+
+.grid-container>div{
+    background-color:indianred;
+    color:white;
+    padding:5%;
+    border: 10px solid black;
+
+}
+
+@media (max-width:800px){
+    .grid-container{
+        display:grid;
+        background-color:beige;
+        grid-template-columns: repeat(2,1fr) ;
+        
+    }
+
+    .grid-container>div{
+        background-color:whitesmoke;
+        color:green;
+        padding:5%;
+        border: 10px solid yellow;
+    
+}
+}
